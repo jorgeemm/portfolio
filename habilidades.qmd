@@ -1,0 +1,50 @@
+---
+title: "Habilidades"
+toc: true
+toc-title: "Contenido"
+include-in-header:
+  - |
+    <style>
+      /* Oculta el título de la tabla de contenido */
+      .sidebar-title {
+        display: none;
+      }
+    </style>
+---
+
+## Análisis de datos con R Studio
+
+### Manipulación y limpieza de datos
+- **Limpieza avanzada**: Tratamiento de valores atípicos, estandarización de formatos y gestión de casos perdidos.
+- **Fusión de bases de datos**: Combinación de múltiples fuentes (ej: `dplyr::left_join`, `merge`).
+- **Transformación de variables**: Recodificación, creación de nuevas varaibles, tratamiento de variables númericas, edición de caracteres de texto (`forcast`, `stringr`).
+
+### Estadística aplicada
+- **Análisis descriptivo**: Tablas de frecuencia, medidas de tendencia central/dispersión, tablas de contingencia (chi-cuadrado).
+- **Contraste de hipótesis**: Pruebas t para una o dos variables, ANOVA.
+- **Modelos predictivos**:
+  - Regresión lineal múltiple (interpretación de coeficientes, R² ajustado).
+  - Regresión logística binaria y multinomial (odds ratios, efectos marginales medios, curvas ROC).
+  - Validación de modelos: Cross-validation, métricas de precisión (RMSE, AUC).
+
+### Visualización de datos
+- **Gráficos avanzados**: `ggplot2`, `plotly`, `DatawRapper` (edición desde R).
+- **Tablas dinámicas**
+- **Storytelling con datos**: Selección de paletas de colores y layouts para comunicar resultados.
+
+## Análisis político-electoral
+- **Análisis de encuestas**
+- **Tendencias electorales**
+  - Segmentación de votantes
+  - Evolución de la intención de voto
+  - Niveles de polarización
+  - Imágen de los candidatos
+  - Análisis geográfico
+  - Estimación de votos y escaños
+- **Brechas generacionales**: Comparativa de comportamiento por grupos de edad.
+- **Movilización social**: Diferentes formas de participación, motivos tras las protestas.
+
+## Diseño y análisis de encuestas
+- **Creación de cuestionarios**: Diseño de preguntas, validación piloto.
+- **Fichas técnicas**: Especificación de metodología, diseño muestral, ponderación...
+- **Herramientas** como Google Forms.

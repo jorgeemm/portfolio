@@ -1,0 +1,22 @@
+---
+title: "Contacto"
+format: 
+  html:
+    css: styles.css
+---
+
+### Correo electrónico
+[jorgemartmarc@gmail.com](mailto:jorgemartmarc@gmail.com).
+
+### Redes profesionales:
+
+```{=html}
+<div class="contact-links">
+  <a href="http://www.linkedin.com/in/jorgemartmarc" class="contact-link">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a>
+  <a href="https://github.com/jorgeemm" class="contact-link">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+</div>
+```

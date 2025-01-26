@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portafolio",
+    "section": "",
+    "text": "Herramientas: R Studio, ggplot2, plotly, quarto\nObjetivo: Explorar patrones de escucha, artistas más reproducidos y variaciones estacionales.\n\nVer código en GitHub | Acceder al informe completo\n\n\n\n\nPaquetes: ggplot2\nAcceso a la página completa\n\n\n\n\n\nTítulo: “Brechas en la protesta: influencia de la edad, generación y género a la hora de manifestarse en España”\nResumen: Este trabajo explora si la participación en manifestaciones en España es igual para todas las personas con independencia de su género o edad, o si elementos como pertenecer a una determinada generación, o ser hombre o mujer, aumentan las probabilidades de manifestarse.\n\nDescargar TFG completo"
+  },
+  {
+    "objectID": "portfolio.html#proyectos-destacados",
+    "href": "portfolio.html#proyectos-destacados",
+    "title": "Portafolio",
+    "section": "",
+    "text": "Herramientas: R Studio, ggplot2, plotly, quarto\nObjetivo: Explorar patrones de escucha, artistas más reproducidos y variaciones estacionales.\n\nVer código en GitHub | Acceder al informe completo\n\n\n\n\nPaquetes: ggplot2\nAcceso a la página completa\n\n\n\n\n\nTítulo: “Brechas en la protesta: influencia de la edad, generación y género a la hora de manifestarse en España”\nResumen: Este trabajo explora si la participación en manifestaciones en España es igual para todas las personas con independencia de su género o edad, o si elementos como pertenecer a una determinada generación, o ser hombre o mujer, aumentan las probabilidades de manifestarse.\n\nDescargar TFG completo"
+  },
+  {
+    "objectID": "habilidades.html",
+    "href": "habilidades.html",
+    "title": "Habilidades",
+    "section": "",
+    "text": "Limpieza avanzada: Tratamiento de valores atípicos, estandarización de formatos y gestión de casos perdidos.\nFusión de bases de datos: Combinación de múltiples fuentes (ej: dplyr::left_join, merge).\nTransformación de variables: Recodificación, creación de nuevas varaibles, tratamiento de variables númericas, edición de caracteres de texto (forcast, stringr).\n\n\n\n\n\nAnálisis descriptivo: Tablas de frecuencia, medidas de tendencia central/dispersión, tablas de contingencia (chi-cuadrado).\nContraste de hipótesis: Pruebas t para una o dos variables, ANOVA.\nModelos predictivos:\n\nRegresión lineal múltiple (interpretación de coeficientes, R² ajustado).\nRegresión logística binaria y multinomial (odds ratios, efectos marginales medios, curvas ROC).\nValidación de modelos: Cross-validation, métricas de precisión (RMSE, AUC).\n\n\n\n\n\n\nGráficos avanzados: ggplot2, plotly, DatawRapper (edición desde R).\nTablas dinámicas\nStorytelling con datos: Selección de paletas de colores y layouts para comunicar resultados."
+  },
+  {
+    "objectID": "habilidades.html#análisis-de-datos-con-r-studio",
+    "href": "habilidades.html#análisis-de-datos-con-r-studio",
+    "title": "Habilidades",
+    "section": "",
+    "text": "Limpieza avanzada: Tratamiento de valores atípicos, estandarización de formatos y gestión de casos perdidos.\nFusión de bases de datos: Combinación de múltiples fuentes (ej: dplyr::left_join, merge).\nTransformación de variables: Recodificación, creación de nuevas varaibles, tratamiento de variables númericas, edición de caracteres de texto (forcast, stringr).\n\n\n\n\n\nAnálisis descriptivo: Tablas de frecuencia, medidas de tendencia central/dispersión, tablas de contingencia (chi-cuadrado).\nContraste de hipótesis: Pruebas t para una o dos variables, ANOVA.\nModelos predictivos:\n\nRegresión lineal múltiple (interpretación de coeficientes, R² ajustado).\nRegresión logística binaria y multinomial (odds ratios, efectos marginales medios, curvas ROC).\nValidación de modelos: Cross-validation, métricas de precisión (RMSE, AUC).\n\n\n\n\n\n\nGráficos avanzados: ggplot2, plotly, DatawRapper (edición desde R).\nTablas dinámicas\nStorytelling con datos: Selección de paletas de colores y layouts para comunicar resultados."
+  },
+  {
+    "objectID": "habilidades.html#análisis-político-electoral",
+    "href": "habilidades.html#análisis-político-electoral",
+    "title": "Habilidades",
+    "section": "Análisis político-electoral",
+    "text": "Análisis político-electoral\n\nAnálisis de encuestas\nTendencias electorales\n\nSegmentación de votantes\nEvolución de la intención de voto\nNiveles de polarización\nImágen de los candidatos\nAnálisis geográfico\nEstimación de votos y escaños\n\nBrechas generacionales: Comparativa de comportamiento por grupos de edad.\nMovilización social: Diferentes formas de participación, motivos tras las protestas."
+  },
+  {
+    "objectID": "habilidades.html#diseño-y-análisis-de-encuestas",
+    "href": "habilidades.html#diseño-y-análisis-de-encuestas",
+    "title": "Habilidades",
+    "section": "Diseño y análisis de encuestas",
+    "text": "Diseño y análisis de encuestas\n\nCreación de cuestionarios: Diseño de preguntas, validación piloto.\nFichas técnicas: Especificación de metodología, diseño muestral, ponderación…\nHerramientas como Google Forms."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Correo electrónico\njorgemartmarc@gmail.com.\n\n\nRedes profesionales:\n\n  \n     LinkedIn\n  \n  \n     GitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sobre mí",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     GitHub\n  \n\n      \nEstudiante del Máster en Análisis Político y Electoral en la Universidad Carlos III de Madrid y graduado en Ciencias Políticas.\nMis principales áreas de interés incluyen el análisis electoral, la movilización social y las brechas generacionales, con un enfoque especial en la aplicación de técnicas cuantitativas mediante el uso de encuestas y visualización de datos.\nSoy una persona curiosa y proactiva, siempre en busca de actualizar mis conocimientos en herramientas de análisis estadístico (como R Studio) y en metodologías innovadoras. Destaco por mi capacidad para trabajar en equipo, combinando creatividad y un enfoque estratégico para desarrollar soluciones innovadoras y efectivas."
+  },
+  {
+    "objectID": "index.html#formación-académica",
+    "href": "index.html#formación-académica",
+    "title": "Sobre mí",
+    "section": "Formación académica",
+    "text": "Formación académica\n\nMáster en Análisis Político y Electoral | Universidad Carlos III de Madrid\n2024 - Actualidad\nGrado en Ciencias Políticas | Universidad Carlos III de Madrid\n2020 - 2024\n\nDiploma al mejor expediente académico de la promoción (2023-2024).\nEstancia de Erasmus+ en Sciences Po Grenoble (Francia, enero a junio de 2023).\n\nCurso de Análisis Estadístico en R | Fundación UC3M\nMarzo 2024"
+  },
+  {
+    "objectID": "index.html#habilidades-técnicas",
+    "href": "index.html#habilidades-técnicas",
+    "title": "Sobre mí",
+    "section": "Habilidades técnicas",
+    "text": "Habilidades técnicas\n\nR Studio\n\nVisualización de datos: ggplot2.\nLimpieza de bases de datos y edición de variables.\nAnálisis estadístico: regresiones, modelos predictivos, pruebas de hipótesis.\n\nHerramientas de visualización\n\nDatawrapper, Flourish.\n\nPaquete Office\nSTATA\nConocimientos básicos en SPSS"
+  },
+  {
+    "objectID": "index.html#otras-habilidades-personales-y-profesionales",
+    "href": "index.html#otras-habilidades-personales-y-profesionales",
+    "title": "Sobre mí",
+    "section": "Otras habilidades personales y profesionales",
+    "text": "Otras habilidades personales y profesionales\n\nCapacidad de adaptación\nTrabajo en equipo\nCapacidad de comunicación\nResolución de problemas\nFacilidad para el aprendizaje\nAprendizaje continuo"
+  }
+]

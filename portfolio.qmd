@@ -1,0 +1,65 @@
+---
+title: "Portafolio"
+toc: true
+toc-title: "Contenido"
+format: 
+  html:
+    css: 
+      - |
+        /* Estilos para iframes */
+        iframe {
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+          display: block;       /* Hace que el iframe sea un bloque */
+          margin: 0 auto;      /* Centra horizontalmente */
+        }
+
+        /* Botones interactivos */
+        .btn {
+          transition: transform 0.2s;
+        }
+        .btn:hover {
+          transform: translateY(-2px);
+        }
+---
+
+## Proyectos destacados
+
+### 🎵 Análisis de mis hábitos musicales en Spotify
+
+**Herramientas**: R Studio, ggplot2, plotly, quarto
+
+**Objetivo**: Explorar patrones de escucha, artistas más reproducidos y variaciones estacionales.
+
+```{=html}
+<iframe src="docs/Resumen_Spotify.html" width="90%" height="400px" style="border:none; margin:1rem 0;"></iframe>
+```
+
+[Ver código en GitHub](https://github.com/jorgeemm/Resumen_Spotify) \| [Acceder al informe completo](docs/Resumen_Spotify.html){target="_blank"}
+
+------------------------------------------------------------------------
+
+### 📊 Galería de visualizaciones con R
+
+**Paquetes**: ggplot2
+
+[Acceso a la página completa](https://jorgemm.quarto.pub/graficos/){target="_blank"}
+
+
+```{=html}
+<iframe src="https://jorgemm.quarto.pub/graficos/" width="90%" height="400px" style="border:none;"></iframe>
+```
+
+------------------------------------------------------------------------
+
+### 📚 Trabajo de Fin de Grado (TFG)
+
+**Título**: "Brechas en la protesta: influencia de la edad, generación y género a la hora de manifestarse en España"
+
+**Resumen**: Este trabajo explora si la participación en manifestaciones en España es igual para todas las personas con independencia de su género o edad, o si elementos como pertenecer a una determinada generación, o ser hombre o mujer, aumentan las probabilidades de manifestarse.
+
+```{=html}
+<iframe src="docs/tfg.pdf" width="80%" height="500px" style="border:none;"></iframe>
+```
+
+[Descargar TFG completo](docs/tfg.pdf){.btn .btn-primary target="_blank"}

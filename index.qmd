@@ -1,0 +1,56 @@
+---
+title: "Sobre mí"
+format: html
+about:
+  id: hero-heading
+  template: solana
+  image: 01_img/foto_orla_2.jpg
+  image-width: 7em
+  links:
+   - icon: linkedin
+     text: LinkedIn
+     href: http://www.linkedin.com/in/jorgemartmarc  
+   - icon: github
+     text: GitHub
+     href: https://github.com/jorgeemm
+---
+
+::: {#hero-heading}
+Estudiante del **Máster en Análisis Político y Electoral** en la **Universidad Carlos III** de Madrid y graduado en Ciencias Políticas.
+
+Mis principales áreas de interés incluyen el **análisis electora**l, la **movilización social** y las **brechas generacionales**, con un enfoque especial en la aplicación de **técnicas cuantitativas** mediante el uso de encuestas y **visualización de datos**.
+
+Soy una persona **curiosa y proactiva**, siempre en busca de actualizar mis conocimientos en **herramientas de análisis estadístico** (como R Studio) y en metodologías innovadoras. Destaco por mi capacidad para **trabajar en equipo**, combinando **creatividad** y un **enfoque estratégico** para desarrollar soluciones innovadoras y efectivas.
+:::
+
+## Formación académica
+
+-   **Máster en Análisis Político y Electoral** \| *Universidad Carlos III de Madrid*\
+    2024 - Actualidad
+-   **Grado en Ciencias Políticas** \| *Universidad Carlos III de Madrid*\
+    2020 - 2024
+    -   Diploma al mejor expediente académico de la promoción (2023-2024).
+    -   Estancia de Erasmus+ en *Sciences Po Grenoble* (Francia, enero a junio de 2023).
+-   **Curso de Análisis Estadístico en R** \| *Fundación UC3M*\
+    Marzo 2024
+
+## Habilidades técnicas
+
+-   **R Studio**
+    -   Visualización de datos: *ggplot2*.
+    -   Limpieza de bases de datos y edición de variables.
+    -   Análisis estadístico: regresiones, modelos predictivos, pruebas de hipótesis.
+-   **Herramientas de visualización**
+    -   Datawrapper, Flourish.
+-   **Paquete Office**
+-   **STATA**
+-   Conocimientos básicos en SPSS
+
+## Otras habilidades personales y profesionales
+
+-   Capacidad de adaptación
+-   Trabajo en equipo
+-   Capacidad de comunicación
+-   Resolución de problemas
+-   Facilidad para el aprendizaje
+-   Aprendizaje continuo

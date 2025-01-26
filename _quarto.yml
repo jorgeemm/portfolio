@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+
+execute:
+  freeze: auto
+
+website:
+  title: "Jorge Martín Marcos"
+  favicon: 01_img/foto_orla_2.png
+  bread-crumbs: false # Para que elimie de la parte superior las indicaciones de dónde se está (P.ej., que no aparezca: Análisis de datos > Análisis bivariado > Ttest )
+  search: true # Para añadir la lupa a la página
+  navbar:
+    background: dark
+    right:
+      - href: index.qmd
+        text: Sobre mí
+      - href: habilidades.qmd
+        text: Habilidades
+      - href: portfolio.qmd
+        text: Portafolio
+      - href: contact.qmd
+        text: Contacto
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    include-in-header:
+      - text: |
+          <style>
+          /* Estilos para todo el documento */
+          body {
+            text-align: justify;
+          }
+          /* Estilos específicos para la tabla de contenidos */
+          .toc-actions, .toc .nav, .toc .nav > li > a {
+            text-align: left !important;
+          }
+          </style>
+
+knitr: # Configuración global de knitr
+  opts_chunk: 
+    echo: true
+    message: false
+    warning: false
+    fig.align: center
+    out.width: "60%"
+
+editor: visual
