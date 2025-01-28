@@ -32,10 +32,10 @@ format:
 **Objetivo**: Explorar patrones de escucha, artistas más reproducidos y variaciones estacionales.
 
 ```{=html}
-<iframe src="docs/Resumen_Spotify.html" width="90%" height="400px" style="border:none; margin:1rem 0;"></iframe>
+<iframe src="Resumen_Spotify.html" width="90%" height="400px" style="border:none; margin:1rem 0;"></iframe>
 ```
 
-[Ver código en GitHub](https://github.com/jorgeemm/Resumen_Spotify) \| [Acceder al informe completo](docs/Resumen_Spotify.html){target="_blank"}
+[Ver código en GitHub](https://github.com/jorgeemm/Resumen_Spotify){.btn .btn-primary target="_blank"} [Acceder al informe completo](Resumen_Spotify.html){.btn .btn-primary target="_blank"}
 
 ------------------------------------------------------------------------
 
@@ -43,12 +43,11 @@ format:
 
 **Paquetes**: ggplot2
 
-[Acceso a la página completa](https://jorgemm.quarto.pub/graficos/){target="_blank"}
-
-
 ```{=html}
 <iframe src="https://jorgemm.quarto.pub/graficos/" width="90%" height="400px" style="border:none;"></iframe>
 ```
+
+[Acceso a la página completa](https://jorgemm.quarto.pub/graficos/){.btn .btn-primary target="_blank"}
 
 ------------------------------------------------------------------------
 
@@ -59,7 +58,7 @@ format:
 **Resumen**: Este trabajo explora si la participación en manifestaciones en España es igual para todas las personas con independencia de su género o edad, o si elementos como pertenecer a una determinada generación, o ser hombre o mujer, aumentan las probabilidades de manifestarse.
 
 ```{=html}
-<iframe src="docs/tfg.pdf" width="80%" height="500px" style="border:none;"></iframe>
+<iframe src="tfg.pdf" width="80%" height="500px" style="border:none;"></iframe>
 ```
 
-[Descargar TFG completo](docs/tfg.pdf){.btn .btn-primary target="_blank"}
+[Acceder al TFG completo](tfg.pdf){.btn .btn-primary target="_blank"}
