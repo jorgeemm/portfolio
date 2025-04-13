@@ -148,9 +148,10 @@ iframe {
   <ul>
   <li><a href="#proyectos-destacados" id="toc-proyectos-destacados" class="nav-link active" data-scroll-target="#proyectos-destacados">Proyectos destacados</a>
   <ul class="collapse">
+  <li><a href="#gestión-y-análisis-de-datos-de-un-intercambio-de-ropa" id="toc-gestión-y-análisis-de-datos-de-un-intercambio-de-ropa" class="nav-link" data-scroll-target="#gestión-y-análisis-de-datos-de-un-intercambio-de-ropa">👖 Gestión y análisis de datos de un intercambio de ropa</a></li>
   <li><a href="#análisis-de-mis-hábitos-musicales-en-spotify" id="toc-análisis-de-mis-hábitos-musicales-en-spotify" class="nav-link" data-scroll-target="#análisis-de-mis-hábitos-musicales-en-spotify">🎵 Análisis de mis hábitos musicales en Spotify</a></li>
-  <li><a href="#galería-de-visualizaciones-con-r" id="toc-galería-de-visualizaciones-con-r" class="nav-link" data-scroll-target="#galería-de-visualizaciones-con-r">📊 Galería de visualizaciones con R</a></li>
   <li><a href="#trabajo-de-fin-de-grado-tfg" id="toc-trabajo-de-fin-de-grado-tfg" class="nav-link" data-scroll-target="#trabajo-de-fin-de-grado-tfg">📚 Trabajo de Fin de Grado (TFG)</a></li>
+  <li><a href="#ejemplos-y-tutoriales-de-visualizaciones-con-r" id="toc-ejemplos-y-tutoriales-de-visualizaciones-con-r" class="nav-link" data-scroll-target="#ejemplos-y-tutoriales-de-visualizaciones-con-r">📊 Ejemplos y tutoriales de visualizaciones con R</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -179,27 +180,85 @@ iframe {
 
 <section id="proyectos-destacados" class="level2">
 <h2 class="anchored" data-anchor-id="proyectos-destacados">Proyectos destacados</h2>
-<section id="análisis-de-mis-hábitos-musicales-en-spotify" class="level3">
-<h3 class="anchored" data-anchor-id="análisis-de-mis-hábitos-musicales-en-spotify">🎵 Análisis de mis hábitos musicales en Spotify</h3>
-<p><strong>Herramientas</strong>: R Studio, ggplot2, plotly, quarto</p>
-<p><strong>Objetivo</strong>: Explorar patrones de escucha, artistas más reproducidos y variaciones estacionales.</p>
-<iframe src="Resumen_Spotify.html" width="90%" height="400px" style="border:none; margin:1rem 0;"></iframe>
-<p><a href="https://github.com/jorgeemm/Resumen_Spotify" class="btn btn-primary" target="_blank">Ver código en GitHub</a> <a href="Resumen_Spotify.html" class="btn btn-primary" target="_blank">Acceder al informe completo</a></p>
+<section id="gestión-y-análisis-de-datos-de-un-intercambio-de-ropa" class="level3">
+<h3 class="anchored" data-anchor-id="gestión-y-análisis-de-datos-de-un-intercambio-de-ropa">👖 Gestión y análisis de datos de un intercambio de ropa</h3>
+<p><strong>Objetivo 1</strong>: mejorar la gestión del sistema de puntuación empleado en el intercambio de ropa de la asociación universitaria MUCAM.</p>
+<p><strong>Objetivo 2</strong>: analizar los datos generados durante el intercambio y realizar un informe a partir de ellos para comprender cómo fue el evento y ver qué elementos se pueden mejorar de cara a futuras ediciones del mismo.</p>
+<p><strong>Herramientas</strong>: R Studio, DataWrapper, GitHub, Google Sheets (incluyendo el uso de Apps Scrips apoyado en la IA).</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Informe final</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Sheet</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Página para la visualización del intercambio</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<iframe src="../otros_recursos/analisis_final_2025.html" width="90%" height="400px" style="border:none; margin:1rem 0;"></iframe>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>Se trata de una hoja de cálculo interactiva. Al apuntarse una persona en el Formulario, aparecía automáticamente en las dos tablas creadas, donde se buscaba también su nombre para ver si había venido a intercambios anteriores. Las pestañas de prendas, por su parte, permiten simplificar el proceso de apuntar la ropa que trae y se lleva cada persona, ya que solo hay que seleccionar esta entre las opciones disponibles y automáticamente se asignan los puntos correspondientes con ese tipo de prenda.</p>
+<p>Asimismo, permitía guardar información extra sobre la hora a la que traían y se llevaba prendas cada persona.</p>
+<p><img src="01_img/sheet-intercambio.png" class="img-fluid"></p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>El objetivo de esta página era poder visualizar en tiempo real, gracias a diversos gráficos elaborados con DataWrapper, cómo se iba desarrollando el intercambio. Por ejemplo, se incluía información sobre cuánta gente había venido, cuántos inscritos faltaban por llegar, qué tipos de prendas estaban trayendo/llevándose más y menos…</p>
+<p>Asimismo, se incluía una tabla con un buscador para poder localizar fácilmente a aquellas personas que habían participado en intercambios anteriores.</p>
+<p><img src="01_img/tabla_fieles.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<div class="contact-links">
+
+  <a href="https://github.com/jorgeemm/analisis_datos_intercambio_ropa" class="contact-link">
+    <i class="fab fa-github"></i> Ver código en GitHub
+  </a>
+  
+  <a href="../otros_recursos/analisis_final_2025.html" class="contact-link" target="_blank">
+    <i class="fas fa-shirt"></i> Acceder al informe completo
+  </a>
+  
+</div>
 <hr>
 </section>
-<section id="galería-de-visualizaciones-con-r" class="level3">
-<h3 class="anchored" data-anchor-id="galería-de-visualizaciones-con-r">📊 Galería de visualizaciones con R</h3>
-<p><strong>Paquetes</strong>: ggplot2</p>
-<iframe src="https://jorgemm.quarto.pub/graficos/" width="90%" height="400px" style="border:none;"></iframe>
-<p><a href="https://jorgemm.quarto.pub/graficos/" class="btn btn-primary" target="_blank">Acceso a la página completa</a></p>
+<section id="análisis-de-mis-hábitos-musicales-en-spotify" class="level3">
+<h3 class="anchored" data-anchor-id="análisis-de-mis-hábitos-musicales-en-spotify">🎵 Análisis de mis hábitos musicales en Spotify</h3>
+<p><strong>Objetivo</strong>: Explorar patrones de escucha, artistas más reproducidos y variaciones estacionales.</p>
+<p><strong>Herramientas</strong>: R Studio, ggplot2, plotly, quarto</p>
+<iframe src="../otros_recursos/Resumen_Spotify.html" width="90%" height="400px" style="border:none; margin:1rem 0;"></iframe>
+<div class="contact-links">
+
+  <a href="https://github.com/jorgeemm/Resumen_Spotify" class="contact-link">
+    <i class="fab fa-github"></i> Ver código en GitHub
+  </a>
+  
+  <a href="../otros_recursos/Resumen_Spotify.html" class="contact-link">
+    <i class="fas fa-music"></i> Acceder al informe completo
+  </a>
+  
+</div>
 <hr>
 </section>
 <section id="trabajo-de-fin-de-grado-tfg" class="level3">
 <h3 class="anchored" data-anchor-id="trabajo-de-fin-de-grado-tfg">📚 Trabajo de Fin de Grado (TFG)</h3>
 <p><strong>Título</strong>: “Brechas en la protesta: influencia de la edad, generación y género a la hora de manifestarse en España”</p>
 <p><strong>Resumen</strong>: Este trabajo explora si la participación en manifestaciones en España es igual para todas las personas con independencia de su género o edad, o si elementos como pertenecer a una determinada generación, o ser hombre o mujer, aumentan las probabilidades de manifestarse.</p>
-<iframe src="tfg.pdf" width="80%" height="500px" style="border:none;"></iframe>
-<p><a href="tfg.pdf" class="btn btn-primary" target="_blank">Acceder al TFG completo</a></p>
+<iframe src="../otros_recursos/tfg.pdf" width="80%" height="500px" style="border:none;"></iframe>
+<div class="contact-links">
+
+  <a href="../otros_recursos/tfg.pdf" class="contact-link">
+    <i class="fas fa-file-pdf"></i> Acceder al TFG completo
+  </a>
+  
+</div>
+<hr>
+</section>
+<section id="ejemplos-y-tutoriales-de-visualizaciones-con-r" class="level3">
+<h3 class="anchored" data-anchor-id="ejemplos-y-tutoriales-de-visualizaciones-con-r">📊 Ejemplos y tutoriales de visualizaciones con R</h3>
+<p><strong>Paquetes</strong>: ggplot2</p>
+<iframe src="https://jorgemm.quarto.pub/graficos/" width="90%" height="400px" style="border:none;"></iframe>
+<div class="contact-links">
+
+  <a href="https://jorgemm.quarto.pub/graficos/" class="contact-link">
+    <i class="fas fa-chart-column"></i> Página completa
+  </a>
+  
+</div>
 
 
 </section>

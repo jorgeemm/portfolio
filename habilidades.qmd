@@ -16,7 +16,7 @@ include-in-header:
 
 ### Manipulación y limpieza de datos
 - **Limpieza avanzada**: Tratamiento de valores atípicos, estandarización de formatos y gestión de casos perdidos.
-- **Fusión de bases de datos**: Combinación de múltiples fuentes (ej: `dplyr::left_join`, `merge`).
+- **Fusión de bases de datos**: Combinación de múltiples fuentes (ej: `left_join`, `merge`, `bind_rows`).
 - **Transformación de variables**: Recodificación, creación de nuevas varaibles, tratamiento de variables númericas, edición de caracteres de texto (`forcast`, `stringr`).
 
 ### Estadística aplicada
@@ -47,4 +47,4 @@ include-in-header:
 ## Diseño y análisis de encuestas
 - **Creación de cuestionarios**: Diseño de preguntas, validación piloto.
 - **Fichas técnicas**: Especificación de metodología, diseño muestral, ponderación...
-- **Herramientas** como Google Forms.
+- **Herramientas** como Qualtrics y Google Forms.

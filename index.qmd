@@ -18,7 +18,7 @@ about:
 ::: {#hero-heading}
 Estudiante del **Máster en Análisis Político y Electoral** en la **Universidad Carlos III** de Madrid y graduado en Ciencias Políticas.
 
-Mis principales áreas de interés incluyen el **análisis electora**l, la **movilización social** y las **brechas generacionales**, con un enfoque especial en la aplicación de **técnicas cuantitativas** mediante el uso de encuestas y **visualización de datos**.
+Mis principales áreas de interés incluyen el **análisis electora**l, la **movilización social** y las **brechas generacionales**, con un enfoque especial en la aplicación de **técnicas cuantitativas** mediante el uso de encuestas y la **visualización de datos**.
 
 Soy una persona **curiosa y proactiva**, siempre en busca de actualizar mis conocimientos en **herramientas de análisis estadístico** (como R Studio) y en metodologías innovadoras. Destaco por mi capacidad para **trabajar en equipo**, combinando **creatividad** y un **enfoque estratégico** para desarrollar soluciones innovadoras y efectivas.
 :::
@@ -45,6 +45,7 @@ Soy una persona **curiosa y proactiva**, siempre en busca de actualizar mis cono
 -   **Paquete Office**
 -   **STATA**
 -   Conocimientos básicos en SPSS
+-   Conocimientos básicos en Qualtrics
 
 ## Otras habilidades personales y profesionales
 
