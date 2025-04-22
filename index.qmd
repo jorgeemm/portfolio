@@ -4,7 +4,7 @@ format: html
 about:
   id: hero-heading
   template: solana
-  image: 01_img/foto_orla_2.jpg
+  image: 01_img/foto_perfil.jpg
   image-width: 7em
   links:
    - icon: linkedin
@@ -44,8 +44,8 @@ Soy una persona **curiosa y proactiva**, siempre en busca de actualizar mis cono
     -   Datawrapper, Flourish.
 -   **Paquete Office**
 -   **STATA**
+-   **Qualtrics**
 -   Conocimientos básicos en SPSS
--   Conocimientos básicos en Qualtrics
 
 ## Otras habilidades personales y profesionales
 
