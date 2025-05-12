@@ -73,6 +73,26 @@ Asimismo, se incluía una tabla con un buscador para poder localizar fácilmente
 
 ------------------------------------------------------------------------
 
+### 📊 Ejemplos y tutoriales de visualización de datos
+
+**Paquetes**: ggplot2, tidyverse
+
+```{=html}
+<iframe src="https://jorgemm.quarto.pub/graficos/" width="90%" height="400px" style="border:none;"></iframe>
+```
+
+```{=html}
+<div class="contact-links">
+
+  <a href="https://jorgemm.quarto.pub/graficos/" class="contact-link">
+    <i class="fas fa-chart-column"></i> Página completa
+  </a>
+  
+</div>
+```
+
+------------------------------------------------------------------------
+
 ### 🎵 Análisis de mis hábitos musicales en Spotify
 
 **Objetivo**: Explorar patrones de escucha, artistas más reproducidos y variaciones estacionales.
@@ -114,27 +134,6 @@ Asimismo, se incluía una tabla con un buscador para poder localizar fácilmente
 
   <a href="tfg.pdf" class="contact-link">
     <i class="fas fa-file-pdf"></i> Acceder al TFG completo
-  </a>
-  
-</div>
-```
-
-------------------------------------------------------------------------
-
-### 📊 Ejemplos y tutoriales de visualizaciones con R
-
-**Paquetes**: ggplot2
-
-```{=html}
-<iframe src="https://jorgemm.quarto.pub/graficos/" width="90%" height="400px" style="border:none;"></iframe>
-```
-
-
-```{=html}
-<div class="contact-links">
-
-  <a href="https://jorgemm.quarto.pub/graficos/" class="contact-link">
-    <i class="fas fa-chart-column"></i> Página completa
   </a>
   
 </div>
