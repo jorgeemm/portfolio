@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV · Jorge Martín Marcos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/pages.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-name">JORGE<br><span class="nav-name-full"> MARTÍN MARCOS</span><span class="nav-name-mobile">MARTÍN</span></div>    
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link nav-link--underline">Inicio</a>
+      <a href="proyectos.html" class="nav-link nav-link--underline">+ proyectos</a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="page-header">
+    <h1 class="page-title">CV</h1>
+  </header>
+
+  <!-- INTRO + DESCARGA -->
+  <div class="cv-intro">
+    <p>
+      Si eres una persona clásica, que prefiere un CV al uso, puedes
+      <a class="cv-download-btn" href="../assets/cv-jorge-martin-marcos.pdf" download>
+        descargarlo aquí
+      </a>
+      y descubrir algo más sobre mí.
+    </p>
+  </div>
+
+  <!-- PDF INCRUSTADO
+       Cambia la ruta del src al PDF de tu CV real.
+       El archivo debe estar en /assets/cv-jorge-martin-marcos.pdf
+  -->
+  <div class="cv-pdf-embed">
+    <iframe
+      src="../assets/cv-jorge-martin-marcos.pdf"
+      title="CV Jorge Martín Marcos"
+      loading="lazy">
+      <!-- Fallback si el browser no soporta iframe con PDF -->
+      <p>Tu navegador no puede mostrar el PDF directamente.
+        <a href="../assets/cv-jorge-martin-marcos.pdf" download>Descárgalo aquí.</a>
+      </p>
+    </iframe>
+  </div>
+
+</body>
+</html>

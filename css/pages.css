@@ -1,0 +1,285 @@
+/* ════════════════════════════════════════════════════
+   SHARED — pages/proyectos.html & pages/cv.html
+════════════════════════════════════════════════════ */
+
+/* inherit all root vars from parent */
+:root {
+  --bg: #EFEFEF;
+  --black: #111111;
+  --accent: #D1345B;
+  --cyan: #253A8E;
+  --green: #00a800;
+  --card-radius: 3px;
+  --transition: 0.35s cubic-bezier(.4,0,.2,1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--black);
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* ────────── NAVBAR ────────── */
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+  background: var(--bg);
+  border-bottom: 1.5px solid rgba(0,0,0,0.08);
+}
+.nav-name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: clamp(0.75rem, 1.4vw, 1rem);
+  letter-spacing: 0.08em;
+  color: var(--cyan);
+}
+.nav-links { display: flex; gap: 28px; align-items: center; }
+.nav-link {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 0.92rem;
+  color: var(--black);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 2px;
+}
+.nav-link--underline::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 0; height: 2px;
+  background: var(--accent);
+  transition: width var(--transition);
+}
+.nav-link--underline:hover::after { width: 100%; }
+.nav-link.active { border-bottom: 2px solid var(--accent); }
+.nav-name-mobile { display: none; }
+.nav-name br     { display: none; }
+
+/* ────────── PAGE HEADER ────────── */
+.page-header {
+  padding: 70px 40px 30px;
+}
+.page-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  color: var(--cyan);
+}
+
+/* ────────── FILTERS ────────── */
+.filters-bar {
+  padding: 0 40px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.filter-btn {
+  padding: 6px 16px;
+  border: 1.5px solid var(--black);
+  background: transparent;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--black);
+  cursor: pointer;
+  border-radius: 100px;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+.filter-btn:hover,
+.filter-btn.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* ────────── GALLERY GRID ────────── */
+.gallery-grid {
+  padding: 0 40px 80px;
+  columns: 4;
+  column-gap: 18px;
+}
+.gallery-item {
+  break-inside: avoid;
+  margin-bottom: 18px;
+  display: block;
+}
+
+/* CARD galería
+   El JS lee naturalWidth/naturalHeight del <img> y aplica
+   aspect-ratio automáticamente al .gcard.
+   Fallback antes de cargar: 4/3.
+*/
+.gcard {
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  aspect-ratio: 4 / 3; /* fallback — JS lo sobreescribe */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.gcard:hover { transform: translateY(-4px); box-shadow: 8px 12px 40px rgba(0,0,0,0.24); }
+
+/* Imagen real */
+.gcard-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  z-index: 1;
+}
+.gcard-img[src=""], .gcard-img:not([src]) { opacity: 0; }
+
+/* Emoji placeholder detrás de la imagen */
+.gcard-placeholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  opacity: 0.22;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Overlay hover */
+.gcard-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.76);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 18px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s, transform 0.3s;
+  border-radius: var(--card-radius);
+  z-index: 2;
+}
+.gcard:hover .gcard-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+.gcard-hover-title {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.98rem;
+  margin-bottom: 5px;
+}
+.gcard-hover-desc {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.gcard-hover-link {
+  color: var(--accent);
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+  align-self: flex-start;
+  padding-bottom: 1px;
+}
+
+/* Card footer: título + tags */
+.gcard-footer {
+  padding: 10px 4px 0;
+}
+.gcard-footer-title {
+  font-family: 'DM Serif', bold;
+  font-size: 1.2rem;
+  font-weight: 550;
+  color: var(--black);
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+.gcard-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.gcard-tag {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 3px 10px;
+  border: 1px solid var(--accent);
+  border-radius: 100px;
+  color: var(--accent);
+  background: rgba(78,63,255,0.07);
+}
+
+/* hidden by filter */
+.gallery-item.hidden { display: none; }
+
+/* ────────── CV PAGE ────────── */
+.cv-intro {
+  padding: 0 40px 30px;
+  max-width: 800px;
+}
+.cv-intro p {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--black);
+}
+.cv-download-btn {
+  display: inline-block;
+  margin-top: 2px;
+  padding: 4px 7px;
+  border: 2px solid var(--black);
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--black);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  background: transparent;
+}
+.cv-download-btn:hover { background: var(--black); color: var(--bg); }
+
+.cv-pdf-embed {
+  padding: 0 140px 60px;
+}
+.cv-pdf-embed iframe {
+  width: 100%;
+  height: 155vh;
+  border-radius: 4px;
+}
+
+/* ────────── RESPONSIVE ────────── */
+@media (max-width: 1100px) {
+  .gallery-grid { columns: 3; }
+}
+@media (max-width: 760px) {
+  .navbar { padding: 12px 20px; }
+  .nav-link { font-size: 0.75rem; }
+  .nav-name-full {
+    display: none;
+  }
+  .nav-name br     { display: block; }
+  .nav-name-mobile { display: inline; }
+  .page-header { padding: 90px 20px 30px; }
+  .filters-bar { padding: 0 20px 20px; }
+  .gallery-grid { columns: 2; padding: 0 20px 50px; }
+  .cv-intro, .cv-pdf-embed { padding-left: 20px; padding-right: 20px; }
+}
+@media (max-width: 480px) {
+  .gallery-grid { columns: 1; }
+}

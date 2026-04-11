@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jorge Martín Marcos · Análisis de datos, electoral y visualizaciones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-name">JORGE<br><span class="nav-name-full"> MARTÍN MARCOS</span><span class="nav-name-mobile">MARTÍN</span></div>    
+    <div class="nav-links">
+      <a href="pages/proyectos.html" class="nav-link nav-link--underline">+ proyectos</a>
+      <a href="pages/cv.html" class="nav-link nav-link--underline">CV</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <header class="hero">
+    <div class="hero-title-wrap">
+      <h1 class="hero-title">JORGE MARTÍN MARCOS</h1>
+      <p class="hero-subtitle">Análisis de datos, electoral y visualizaciones</p>
+    </div>
+    <div class = "hero-identity">
+      <img
+        src="assets/foto-mia.jpg"
+        alt="Aquí estoy yo"
+        class="hero-photo"
+      />
+      <div class="hero-social">
+        <button class="social-icon social-icon--email" aria-label="Copiar email" data-email="jorgemartmarc@gmail.com">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <polyline points="2,4 12,13 22,4"/>
+          </svg>
+        </button>
+        <!-- Toast de confirmación -->
+        <div class="email-toast" id="email-toast">✓ Email copiado</div>
+        <a href="https://www.linkedin.com/in/jorgemartmarc/" class="social-icon" aria-label="LinkedIn" target="_blank">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://github.com/jorgeemm" class="social-icon" aria-label="GitHub" target="_blank">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       SOBRE MÍ
+  ═══════════════════════════════════════════ -->
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="sobre-mi-inner">
+
+      <!-- TEXTO BIO -->
+      <div class="bio-col">
+        <p class="bio-text">
+          Hola! Soy Jorge, un friki de las <span class="highlight-word" data-color="#4e3fff">encuestas</span>, la <span class="highlight-word" data-color="#4e3fff">política</span>, los <span class="highlight-word" data-color="#4e3fff">datos</span> y la creación de <span class="highlight-word" data-color="#4e3fff">visualizaciones</span>.
+        </p>
+        <p class="bio-text">
+          Esta mezcla me llevó a estudiar Ciencias Políticas y hacer un <span class="highlight-word" data-color="#4e3fff">Máster en Análisis Político y Electoral</span>, aunque las vueltas de la vida me han llevado a ser <span class="highlight-word" data-color="#4e3fff">periodista visual</span> en <a href="https://www.newtral.es/author/jorge-martin/" class="highlight-link-green" target="_blank">Newtral</a>.
+        </p>
+        <p class="bio-text">
+          Allí trato de poner algo de orden sobre una actualidad cada día más diversa gracias al análisis de datos, tratando de acercar la amplitud de información con síntesis visuales. Estas herramientas también me sirven para arrojar algo de luz sobre la opaca transparencia pública.
+        </p>
+        <p class="bio-text">
+          Soy una persona <span class="highlight-word" data-color="#4e3fff">curiosa</span> con ganas de intentar <span class="highlight-word" data-color="#4e3fff">comprender el mundo</span> en el que vivimos y su funcionamiento. Y, gracias a la visualización de datos, aterrizar esa información de la forma más clara posible para ayudar a que otras mentes inquietas puedan comprenderla también.
+        </p>
+      </div>
+
+      <!-- HABILIDADES -->
+      <div class="skills-col">
+        <h2 class="skills-title">Habilidades destacadas</h2>
+        <div class="skills-section-label">• De análisis</div>
+        <div class="skill-item">
+          <span class="skill-label">R</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-bg"></div>
+            <div class="skill-bar-fill" data-level="75"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-label">Python</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-bg"></div>
+            <div class="skill-bar-fill" data-level="50"></div>
+          </div>
+        </div>
+
+        <div class="skills-section-label" style="margin-top:14px">• De visualización</div>
+        <div class="skill-item">
+          <span class="skill-label">Datawrapper</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-bg"></div>
+            <div class="skill-bar-fill" data-level="95"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-label">ggplot2 (R)</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-bg"></div>
+            <div class="skill-bar-fill" data-level="90"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-label">Illustrator</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-bg"></div>
+            <div class="skill-bar-fill" data-level="40"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-label">Mapas interactivos (Maplibre | Mapbox)</span>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar-bg"></div>
+            <div class="skill-bar-fill" data-level="40"></div>
+          </div>
+        </div>
+
+        <!-- Desplegable — al final de habilidades -->
+        <div class="expandable" id="expandable" style="margin-top:18px;">
+          <button class="expandable-btn" id="expandable-btn" aria-expanded="false">
+            ¿Quieres saber qué más sé hacer? <span class="arrow">▼</span>
+          </button>
+          <div class="expandable-content" id="expandable-content">
+            <ul class="extra-skills">
+              <li>• QGIS / cartografía básica</li>
+              <li>• Diseño de encuestas</li>
+              <li>• Web scraping (con Python)</li>
+              <li>• Power BI (curso IBM)</li>
+              <li>• Stata</li>
+              <li>• Flourish</li>
+              <li>• Excel</li>
+              <li>• Paquete Office</li>
+              <li>• Habilidades de investigación</li>
+              <li>• Redacción de textos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PROYECTOS DESTACADOS — scroll horizontal
+  ═══════════════════════════════════════════ -->
+  <section class="proyectos-section" id="proyectos-section">
+    <div class="proyectos-header">
+      <h2 class="proyectos-title">Proyectos destacados</h2>
+    </div>
+
+    <div class="sticky-scroll-wrapper" id="sticky-scroll-wrapper">
+      <div class="sticky-scroll-inner" id="sticky-scroll-inner">
+        <div class="cards-track" id="cards-track">
+
+          <article class="card"
+            data-w="350"
+            style="background-color:#2d1b4e;">
+            <img class="card-img" src="assets/proyectos/pagina_misoginia_musical.png" alt="Captura de la página Misoginia en la música">
+            <div class="card-overlay">
+              <h3 class="card-hover-title">¿Es la música machista?</h3>
+              <p class="card-hover-desc">Un proyecto en el que se analizó la presencia de indicadores machistas en los príncipales éxitos musicales de la década del 2010, presentando los resultados en una página web de visualización de datos.</p>
+              <a class="card-hover-link" href="https://misoginiamusical.netlify.app/" target="_blank">La página habla por sí sola →</a>
+            </div>
+          </article>
+
+          <article class="card"
+            data-w="420"
+            style="background-color:#1a1a3e;">
+            <img class="card-img" src="assets/proyectos/pagina-tutoriales-r.png" alt="Captura de Página R">
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Web de apuntes con los básicos sobre R</h3>
+              <p class="card-hover-desc">Una página en la que se incluyen explicaciones prácticas y teóricas sobre cómo usar R para la edición de datos, su análisis y su visualización.</p>
+              <a class="card-hover-link" href="https://jorgeemm.github.io/Pagina_R/" target="_blank">Ir a la página →</a>
+            </div>
+          </article>
+
+
+          <article class="card"
+            data-w="350"
+            style="background-color:#2d1b4e;">
+            <img class="card-img" src="assets/proyectos/resultados-elecciones-cyl-26.png" alt="Captura del panel de graficos del directo de las elecciones de CyL">
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Resultados en directo de las elecciones de Castilla y León de 2026</h3>
+              <p class="card-hover-desc">Un panel con gráficos que se actualizaban automáticamente a medida que iban conociéndose nuevos avances de resultados.</p>
+              <a class="card-hover-link" href="https://www.newtral.es/resultados-elecciones-castilla-leon-2026/20260315/" target="_blank">Así quedó el directo →</a>
+            </div>
+          </article>
+
+          <article class="card"
+            data-w="400"
+            style="background-color:#0d2b1a;">
+            <video class="card-img" autoplay loop muted playsinline src="assets/proyectos/viviendas-turisticas-anunciadas-licencia.mp4" alt="Captura pantalla del mapa comparación de viviendas turísticas"></video>
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Viviendas turísticas: anunciadas vs. registradas</h3>
+              <p class="card-hover-desc">Mapa con navegación libre y un breve scrollytelling para mostrar los resultados de un análisis donde se compararon el número de viviendas turísticas anunciadas en plataformas y las que contaban con una licencia para ello.</p>
+              <a class="card-hover-link" href="https://www.newtral.es/viviendas-turisticas-anunciadas-licencia/20260301/" target="_blank">El mapa original →</a>
+            </div>
+          </article>
+
+
+          <article class="card"
+            data-w="300"
+            style="background-color:#0d2b1a;">
+            <img class="card-img" src="assets/proyectos/resumen_musical_2025.png" alt="Recorte de la infografía de resumen musical 2025">
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Resumen musical 2025</h3>
+              <p class="card-hover-desc">Una infografía que agrupa diferentes gráficos y análisis sobre qué música escuché en 2025 y cómo lo hice</p>
+              <a class="card-hover-link" href="https://github.com/jorgeemm/Resumen-Musica-2025" target="_blank">Análisis en GitHub →</a>
+              <a class="card-hover-link" href="#" target="_blank">Ver la infografía completa →</a>
+            </div>
+          </article>
+
+
+          <article class="card"
+            data-w="400"
+            style="background-color:#1e0d2b;">
+            <img class="card-img" src="assets/proyectos/accesibilidad-cercanias.jpg" alt="Portada especial accesibilidad-cercanias">
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Cercanías, un medio poco accesible</h3>
+              <p class="card-hover-desc">Un especial donde se investigó cómo de accesible para las personas con silla de ruedas es un medio de transporte público como el Cercanías.</p>
+              <a class="card-hover-link" href="https://www.newtral.es/cercanias-accesible/20251229/" target="_blank">Noticia 1 →</a>
+              <a class="card-hover-link" href="https://www.newtral.es/cercanias-informacion-movilidad-reducida/20251229/" target="_blank">Noticia 2→</a>
+              <a class="card-hover-link" href="https://www.newtral.es/trenes-cercanias-movilidad-reducida/20251229/" target="_blank">Noticia 3 →</a>
+            </div>
+          </article>
+
+          <article class="card"
+            data-w="300"
+            style="background-color:#1e0d2b;">
+            <video class="card-img" autoplay loop muted playsinline src="assets/proyectos/aniversario-dana.mp4" alt="Captura de un fragmento del scroll de la DANA"></video>
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Aniversario DANA</h3>
+              <p class="card-hover-desc">Un especial con varios scrollytelling y otros gráficos para comprender el día de la tragedia de Valencia.</p>
+              <a class="card-hover-link" href="https://www.newtral.es/cronologia-dana-aniversario/20251029/" target="_blank">Ver noticia →</a>
+            </div>
+          </article>
+
+          <article class="card"
+            data-w="550"
+            style="background-color:#1e0d2b;">
+            <img class="card-img" src="assets/proyectos/yellowline-gaza.jpg" alt="Un mapa de Gaza donde se marca la división de la Yellow Line y los edificios que quedan en cada zona">
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Una Gaza dividia en dos</h3>
+              <p class="card-hover-desc">Un artículo hecho para explicar qué es la Yellow Line que ha dividido Gaza en dos y cómo ha evolucionado la situación medio año después del "acuerdo de paz".</p>
+              <a class="card-hover-link" href="https://www.newtral.es/yellow-line-gaza-seis-meses-paz/20260410/" target="_blank">Ver mapa →</a>
+            </div>
+          </article>
+
+
+          <article class="card"
+            data-w="300"
+            style="background-color:#1e0d2b;">
+            <img class="card-img" src="assets/proyectos/infografia_25N.png" alt="Infografía de 25N a 25N">
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Infografía de 25N a 25N</h3>
+              <p class="card-hover-desc">Una ilustración para mostrar los principales eventos machistas a lo largo de un año.</p>
+              <a class="card-hover-link" href="https://www.newtral.es/datos-25n-2025/20251125/" target="_blank">Ver noticia →</a>
+            </div>
+          </article>
+
+          <article class="card"
+            data-w="350"
+            style="background-color:#2b1a0d;">
+            <img class="card-img" src="assets/proyectos/captura_informe_mucam.png" alt="Captura de una parte del informe de MUCAM">
+            <div class="card-overlay">
+              <h3 class="card-hover-title">Informe de participación de un intercambio de ropa</h3>
+              <p class="card-hover-desc">Informe final de un intercambio de ropa llevado a cabo por una asociación universitaria de moda sostenible. Muestra las conclusiones de un análisis de datos de participación que se actualizaba en directo durante el evento, gracias a un trabajo de gestión de bases de datos </p>
+              <a class="card-hover-link" href="https://mucam.netlify.app/analisis_final_2025" target="_blank">Ver informe completo →</a>
+            </div>
+          </article>
+
+
+        </div><!-- .cards-track -->
+      </div>
+    </div><!-- .sticky-scroll-wrapper -->
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

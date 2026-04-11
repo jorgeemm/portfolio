@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>+ Proyectos · Jorge Martín Marcos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/pages.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-name">JORGE<br><span class="nav-name-full"> MARTÍN MARCOS</span><span class="nav-name-mobile">MARTÍN</span></div>
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link nav-link--underline">Inicio</a>
+      <a href="cv.html" class="nav-link nav-link--underline">CV</a>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <header class="page-header">
+    <h1 class="page-title">+ Proyectos</h1>
+  </header>
+
+  <!-- FILTROS -->
+  <div class="filters-bar" id="filters-bar">
+    <button class="filter-btn active" data-filter="todos">Todos</button>
+    <button class="filter-btn" data-filter="web">Webs</button>
+    <button class="filter-btn" data-filter="electoral">Electoral</button>
+    <button class="filter-btn" data-filter="mapas">Mapas</button>
+    <button class="filter-btn" data-filter="infografia">Infografías</button>
+    <button class="filter-btn" data-filter="scrollytelling">Scrollytelling</button>
+    <button class="filter-btn" data-filter="transparencia">Transparencia</button>
+    <button class="filter-btn" data-filter="popurri">Popurrí</button>
+  </div>
+
+
+  <!-- TARJETAS -->
+  <section class="gallery-grid" id="gallery-grid">
+
+    <div class="gallery-item" data-tags="web">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/pagina_misoginia_musical.png" alt="Captura de la página Misoginia en la música">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Un proyecto en el que se analizó la presencia de indicadores machistas en los príncipales éxitos musicales de la década del 2010, presentando los resultados en una página web de visualización de datos.</p>
+          <a class="gcard-hover-link" href="https://misoginiamusical.netlify.app/" target="_blank">Ver página →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">¿Es la música machista?</p>
+      </div>
+    </div>
+
+    
+    <div class="gallery-item" data-tags="web">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/pagina-tutoriales-r.png" alt="Captura de Página R">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Una página en la que se incluyen explicaciones prácticas y teóricas sobre cómo usar R para la edición de datos, su análisis y su visualización.</p>
+          <a class="gcard-hover-link" href="https://jorgeemm.github.io/Pagina_R/" target="_blank">Ir a la página →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="electoral">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/resultados-elecciones-cyl-26.png" alt="Captura del panel de graficos del directo de las elecciones de CyL">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Un panel con gráficos que se actualizaban automáticamente a medida que iban conociéndose nuevos avances de resultados.</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/resultados-elecciones-castilla-leon-2026/20260315/" target="_blank">Así quedó el directo →</a>
+    </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Resultados en directo de las elecciones de Castilla y León de 2026</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="mapas, scrollytelling">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <video class="gcard-img" autoplay loop muted playsinline src="/assets/proyectos/viviendas-turisticas-anunciadas-licencia.mp4" alt="Captura pantalla del mapa comparación de viviendas turísticas"></video>
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Mapa con navegación libre y un breve scrollytelling para mostrar los resultados de un análisis donde se compararon el número de viviendas turísticas anunciadas en plataformas y las que contaban con una licencia para ello.</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/viviendas-turisticas-anunciadas-licencia/20260301/" target="_blank">El mapa original →</a>
+    </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Viviendas turísticas: anunciadas vs. registradas</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="infografia">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/resumen_musical_2025.png" alt="Recorte de la infografía de resumen musical 2025">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Una infografía que agrupa diferentes gráficos y análisis sobre qué música escuché en 2025 y cómo lo hice</p>
+          <a class="gcard-hover-link" href="https://github.com/jorgeemm/Resumen-Musica-2025" target="_blank">Análisis en GitHub →</a>
+          <a class="gcard-hover-link" href="#" target="_blank">Ver la infografía completa →</a>
+    </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Resumen musical 2025</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="scrollytelling, mapas">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/accesibilidad-cercanias.jpg" alt="Portada especial accesibilidad-cercanias">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <a class="gcard-hover-link" href="https://www.newtral.es/cercanias-accesible/20251229/" target="_blank">Noticia 1 →</a>
+          <a class="gcard-hover-link" href="https://www.newtral.es/cercanias-informacion-movilidad-reducida/20251229/" target="_blank">Noticia 2→</a>
+          <a class="gcard-hover-link" href="https://www.newtral.es/trenes-cercanias-movilidad-reducida/20251229/" target="_blank">Noticia 3 →</a>
+    </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Cercanías, un medio poco accesible</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="scrollytelling, mapas">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <video class="gcard-img" autoplay loop muted playsinline src="/assets/proyectos/aniversario-dana.mp4" alt="Captura de un fragmento del scroll de la DANA"></video>
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Un especial con varios scrollytelling y otros gráficos para comprender el día de la tragedia de Valencia.</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/cronologia-dana-aniversario/20251029/" target="_blank">Ver noticia →</a>
+    </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Aniversario DANA</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="mapas">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/yellowline-gaza.jpg" alt="Un mapa de gaza donde se marca la división de la Yellow Line y los edificios que quedan en cada zona">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <a class="gcard-hover-link" href="https://www.newtral.es/yellow-line-gaza-seis-meses-paz/20260410/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Mapa: la Yellow Line de Gaza</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="infografia">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/infografia_25N.png" alt="Infografía de 25N a 25N">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Una ilustración para mostrar los principales eventos machistas a lo largo de un año.</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/datos-25n-2025/20251125/" target="_blank">Ver noticia →</a>
+    </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Infografía de 25N a 25N</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="web">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/captura_informe_mucam.png" alt="Captura de una parte del informe de MUCAM">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Informe final de un intercambio de ropa llevado a cabo por una asociación universitaria de moda sostenible. Muestra las conclusiones de un análisis de datos de participación que se actualizaba en directo durante el evento, gracias a un trabajo de gestión de bases de datos </p>
+          <a class="gcard-hover-link" href="https://mucam.netlify.app/analisis_final_2025" target="_blank">Ver informe completo →</a>
+    </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Informe de participación de un intercambio de ropa</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="mapas">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/anexion-cisjordania-israel.png" alt="Mapa Cisjordania">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <a class="gcard-hover-link" href="https://www.newtral.es/anexion-cisjordania-israel/20260216/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Mapa de Cisjordania</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="transparencia, infografia">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/sueldos_directiva_pp.png" alt="Infografía sueldos directiva del PP">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Una inforgrafía para mostrar, en la nueva directiva popular, quiénes eran sus miembros y si tenían cargos públicos.</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/direccion-pp-sueldos-publicos/20250710/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Los sueldos públicos de la directiva del PP</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="transparencia, mapas">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/ispa-2025.jpg" alt="Portada de un tema del ISPA 2025">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Noticias sobre sueldos de alcaldes (2024).</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/sueldo-alcaldes-2024/20251126/" target="_blank">Noticia 1 →</a>
+          <a class="gcard-hover-link" href="https://www.newtral.es/alcaldes-hombres-mujeres-sueldos/20251201/" target="_blank">Noticia 2 →</a>
+          <a class="gcard-hover-link" href="https://www.newtral.es/alcaldes-sin-dedicacion-mas-cobran/20251129/" target="_blank">Noticia 3 →</a>
+          <a class="gcard-hover-link" href="https://www.newtral.es/ayuntamientos-no-informan-sueldo-alcaldes/20251128/" target="_blank">Noticia 4 →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">¿Cuánto cobra tu alcalce?</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="popurri, transparencia">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/protagonistas-documentos-23-f.jpg" alt="Portada noticia archivos desclasificados 23F (se ve al Rey Juan Carlos y a Tejero en un montaje sobre el Congreso).">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Para la noticia se llevó a cabo un proceso de digitalización y posterior análisis de los documentos desclasificados.</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/protagonistas-documentos-23-f/20260226/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Análisis de los documentos del 23F</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="transparencia, infografia">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/cuanto-cobran-los-diputados.png" alt="Infografía explicativa del sueldo de los diputados">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Infografía explicativa del sueldo de los diputados</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/cuanto-cobran-los-diputados/20250801/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">¿Cuánto cobran los diputados?</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="mapa, infografia">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/petroleros-interceptados-estados-unidos.jpg" alt="Un mapa donde se ven los petroleros interceptados por EE UU durante la crisis con Venezuela.">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <a class="gcard-hover-link" href="https://www.newtral.es/petroleros-interceptados-estados-unidos/20260109/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Mapa de los petroleros que EEUU interceptó en la crisis con Venezuela</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="popurri">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/grafico-consumo-tabaco.png" alt="Un gráfico de barras con el consumo de tabaco cada año, donde las barras tienen forma de cigarrillos.">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Un gráifoc más ilustrativo sobre la reducción del consumo de tabaco.</p>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Evolución del consumo de tabaco</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="infografia,">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/arsenales-nucleares-francia-reino-unido.png" alt="Infografía con la capacidad nuclear de cada país">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <a class="gcard-hover-link" href="https://www.newtral.es/arsenales-nucleares-francia-reino-unido/20250713/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">El arsenal nuclear de Francia y Reino Unido</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="popurri">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/menores-detenidos-ice.png" alt="Gráfico de área con la evolución de los menores detenidos por el ICE, remarcando la llegada de Trump">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <a class="gcard-hover-link" href="https://www.newtral.es/menores-detenidos-i/20260211/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Menores detenidos por el ICE</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="transparencia">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/festivales-ayudas-publicas.png" alt="Gráfico de dos barras, en una se indica la afluencia de público a cada festival y en la otra el dinero recibido">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Una investigación del dinero público recibido por los principales festivales de música</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/festivales-ayudas-publicas/20250719/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">El gasto público en macrofestivales</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="electoral">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/sistema-electoral-castilla-leon.jpg" alt="Portada de la noticia">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">¿Cómo funcionan las elecciones en Castilla y León? ¿A qué partidos beneficia su sistema?</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/sistema-electoral-castilla-leon/20260312/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">El sistema electoral de Castilla y León</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="electoral">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/nuevos-diputados-aragon.jpg" alt="Portada de la noticia, con un mapa, una urna y un gráfico de barras.">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Un análisis de la composición de las Cortes Aragonesas tras el 8F</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/nuevos-diputados-aragon/20260210/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">Los nuevos diputados de Aragón</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="electoral">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/numero-elecciones-autonomicas.png" alt="Calendario con la fecha de elecciones históricas en cada CCAA">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <a class="gcard-hover-link" href="https://www.newtral.es/numero-elecciones-autonomicas/20260125/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">El número de elecciones en cada CCAA</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="infografia">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/renovacion-tribunal-constitucional.png" alt="Infografía explicando cómo se renueva el Tribunal Constitucional">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Infografía explicando cómo se renueva el TC y las posibles mayorías tras los cambios</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/renovacion-tribunal-constitucional-2/20250806/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">La renovación del Tribunal Constitucional</p>
+      </div>
+    </div>
+
+
+    <div class="gallery-item" data-tags="popurri">
+      <div class="gcard" style="background-color:#1a1a3e;">
+        <img class="gcard-img" src="/assets/proyectos/graficos-situacion-ferroviaria.png" alt="Evolución del tráfico ferroviario de alta velocidad tras la liberalización">
+        <div class="gcard-placeholder">📊</div>
+        <div class="gcard-overlay">
+          <p class="gcard-hover-desc">Una colección de gráficos sobre la situación ferroviária en España tras la liberalización de la alta velocidad</p>
+          <a class="gcard-hover-link" href="https://www.newtral.es/graficos-situacion-ferroviaria/20250704/" target="_blank">Ver noticia →</a>
+        </div>
+      </div>
+      <div class="gcard-footer">
+        <p class="gcard-footer-title">La situación ferroviária</p>
+      </div>
+    </div>
+
+
+  </section>
+
+  <script src="../js/gallery.js"></script>
+</body>
+</html>
