@@ -10,19 +10,22 @@
 ────────────────────────────────────────────── */
 (function () {
   function applyRatio(card, img) {
-    const w = img.naturalWidth;
-    const h = img.naturalHeight;
+    const w = img.naturalWidth  || img.videoWidth;
+    const h = img.naturalHeight || img.videoHeight;
     if (!w || !h) return;
     card.style.aspectRatio = w + ' / ' + h;
   }
 
   document.querySelectorAll('.gcard').forEach(card => {
-    const img = card.querySelector('.gcard-img');
+    const img = card.querySelector('.gcard-img, video');
     if (!img) return;
-    if (img.complete && img.naturalWidth) {
+    const isVideo = img.tagName === 'VIDEO';
+    const ready   = isVideo ? img.videoWidth : img.naturalWidth;
+    if ((img.complete || ready) && ready) {
       applyRatio(card, img);
     } else {
-      img.addEventListener('load',  () => applyRatio(card, img), { once: true });
+      const ev = isVideo ? 'loadedmetadata' : 'load';
+      img.addEventListener(ev,     () => applyRatio(card, img), { once: true });
       img.addEventListener('error', () => { img.style.opacity = '0'; }, { once: true });
       window.addEventListener('resize', () => applyRatio(card, img), { passive: true });
     }
